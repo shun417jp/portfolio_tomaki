@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomaki's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-bar"></div>
+
+  <aside class="side-nav">
+    <button class="menu-btn" aria-label="メニュー">
+      &#9776;
+    </button>
+    <div class="side-nav-label vertical-text">     </div>
+    <nav class="side-nav-dots" aria-label="セクションナビゲーション">
+      <a href="#hero" class="dot active" data-target="hero"></a>
+      <a href="#about" class="dot" data-target="about"></a>
+      <a href="#skills" class="dot" data-target="skills"></a>
+      <a href="#projects" class="dot" data-target="projects"></a>
+      <a href="#contact" class="dot" data-target="contact"></a>
+    </nav>
+  </aside>
+
+  <main class="horizontal-wrapper" id="scrollContainer">
+    <!-- Hero / Top -->
+    <section class="panel panel-hero" id="hero">
+      <div class="hero-inner">
+
+        <h1 class="hero-title">Tomaki's</h1>
+        <h2 class="hero-title-strong">Portfolio</h2>
+        <p class="hero-sub">Tomaki Shun</p>
+      </div>
+      <a href="#about" class="next-link">Next »</a>
+    </section>
+
+    <!-- About / Story -->
+    <section class="panel panel-about" id="about">
+      <div class="skills-header vertical-text">ABOUT</div>
+      <div class="about-inner">
+        <!-- decorative icon strips (top & bottom) -->
+        <div class="design-strip design-strip--top" aria-hidden="true">
+          <div class="design-strip-row">
+            <img src="img/design/データベースアイコン1.png" alt="" />
+            <img src="img/design/プログラムアイコン.png" alt="" />
+            <img src="img/design/Wi-Fiのフリーアイコン.png" alt="" />
+            <img src="img/design/キーボードアイコン1.png" alt="" />
+            <img src="img/design/ブラウザアイコン(IE).png" alt="" />
+            <img src="img/design/データベースアイコン1.png" alt="" />
+            <img src="img/design/プログラムアイコン.png" alt="" />
+            <img src="img/design/Wi-Fiのフリーアイコン.png" alt="" />
+            <img src="img/design/キーボードアイコン1.png" alt="" />
+            <img src="img/design/ブラウザアイコン(IE).png" alt="" />
+          </div>
+        </div>
+        <div class="about-content">
+          <!-- Step 1: 小 -->
+          <div class="timeline-group">
+            <div class="timeline-step">
+              <div class="timeline-box">
+                <img src="img/design/小学校.png" alt="小学校" />
+                <img src="img/design/note.png" alt="ノート" />
+              </div>
+              <div class="step-description">
+                <span class="step-title">岩</span>手県北上市の笠松小学校に通い、4年生の時にスポーツ少年団に加入し野球を始めました。以降、中学卒業までの６年間、野球に打ち込みました。<br>
+                また６年生の時に委員会の委員長やスポーツ少年団のキャプテンを務めて小学生ながらチームをまとめる経験を積むことが出来ました。
+              </div>
+            </div>
+            <img src="img/about/images__7_-removebg-preview 1.png" alt="矢印" class="timeline-arrow">
+          </div>
+
+          <!-- Step 2: 中 -->
+          <div class="timeline-group">
+            <div class="timeline-step">
+              <div class="step-description">
+                <span class="step-title">岩</span>手県北上市の和賀西中学校へ進学、流れで野球部に入部しました。３年生の時に取り組んだ「将来の職業」について考えてみる授業で、１回だけ見た職場で働く父親の姿を思い出して、同じエンジニアの道を歩んでみたいと漠然と考えるようになったことが今の進路選択のきっかけだったかもしれません。<br>
+              </div>
+              <div class="timeline-box">
+                <img src="img/design/中学生.png" alt="中学生">
+              </div>
+            </div>
+            <img src="img/about/images__7_-removebg-preview 2.png" alt="矢印" class="timeline-arrow">
+          </div>
+
+          <!-- Step 3: 高 -->
+                     <div class="timeline-group">
+            <div class="timeline-step">
+              <div class="timeline-box">
+                <img src="img/design/22605894.png" alt="高校生">
+              </div>
+              <div class="step-description">
+                <span class="step-title">岩</span>手県立北上翔南高等学校へ進学。部活は野球から離れて演劇部へ入部しました。舞台での活動を通じて、表現力や人前で話す力が養われて、入部前と比べたら人とのコミュニケーションに積極的になれたと思います。<br>
+                ３年次には部長を務め、視野を広く持って物事を考えることを学びました。
+              </div>
+            </div>
+            <img src="img/about/images__7_-removebg-preview 1.png" alt="矢印" class="timeline-arrow">
+          </div>
+
+          <!-- Step 4: 現在 -->
+          <div class="timeline-group timeline-group-current">
+            <div class="timeline-step-current">
+                <div class="timeline-box">
+                  <img src="img/design/PC.png" alt="PC">
+                  <img src="img/design/ダウンロード (2).png" alt="PC2">
+                </div>
+              <div class="current-content">
+                <div class="step-description">
+                  <span class="step-title">エ</span>ンジニア職を志し、MCL盛岡情報ビジネス&デザイン専門学校へ進学。JavaやPython、Javascriptなど複数の言語にフレ、バックエンドからフロントエンドまで一通りの開発工程を経験することでソフトウェア開発に対する理解を深めることが出来ました。<br>
+                  　また、他学年と合同で開催されるハッカソンに3回参加し、実際の開発現場に近い環境でチームで一つの成果物を作り上げました。短い期間の中でアイデアを形にするために、チーム内のコミュニケーションや問題解決力がおもめられました。この経験は今後エンジニアとして働くうえでとても重要な糧になってくると考えています。
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          
+        <a href="#skills" class="next-link next-link-about">Next →</a>
+        <!-- bottom strip -->
+        <div class="design-strip design-strip--bottom" aria-hidden="true">
+          <div class="design-strip-row">
+            <img src="img/design/データベースアイコン1.png" alt="" />
+            <img src="img/design/プログラムアイコン.png" alt="" />
+            <img src="img/design/Wi-Fiのフリーアイコン.png" alt="" />
+            <img src="img/design/キーボードアイコン1.png" alt="" />
+            <img src="img/design/ブラウザアイコン(IE).png" alt="" />
+            <img src="img/design/データベースアイコン1.png" alt="" />
+            <img src="img/design/プログラムアイコン.png" alt="" />
+            <img src="img/design/Wi-Fiのフリーアイコン.png" alt="" />
+            <img src="img/design/キーボードアイコン1.png" alt="" />
+            <img src="img/design/ブラウザアイコン(IE).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="panel panel-skills" id="skills">
+      <div class="skills-header vertical-text">SKILLS</div>
+      <div class="skills-inner">
+        <div class="skills-tabs">
+          <button class="tab-button active" data-tab="frontend">Front-end</button>
+          <button class="tab-button" data-tab="backend">Back-end</button>
+          <button class="tab-button" data-tab="devops">DevOps</button>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-group" data-tab-content="frontend">
+            <div class="skill-item">
+              <div class="skill-badge badge-html">HTML</div>
+              <div class="skill-info">
+                <span class="skill-name">HTML</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 85%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-css">CSS</div>
+              <div class="skill-info">
+                <span class="skill-name">CSS</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-js">JS</div>
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 75%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-react">R</div>
+              <div class="skill-info">
+                <span class="skill-name">React.js</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 65%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-ts">TS</div>
+              <div class="skill-info">
+                <span class="skill-name">TypeScript</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-bs">B</div>
+              <div class="skill-info">
+                <span class="skill-name">Bootstrap</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 60%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group hidden" data-tab-content="backend">
+            <div class="skill-item">
+              <div class="skill-badge badge-java">Java</div>
+              <div class="skill-info">
+                <span class="skill-name">Java</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 75%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-python">Py</div>
+              <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-spring">Spring</div>
+              <div class="skill-info">
+                <span class="skill-name">Spring Boot</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 65%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-sql">SQL</div>
+              <div class="skill-info">
+                <span class="skill-name">SQL</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-node">Node</div>
+              <div class="skill-info">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 60%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-mysql">MySQL</div>
+              <div class="skill-info">
+                <span class="skill-name">MySQL</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 65%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group hidden" data-tab-content="devops">
+            <div class="skill-item">
+              <div class="skill-badge badge-git">Git</div>
+              <div class="skill-info">
+                <span class="skill-name">Git</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 75%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-docker">Docker</div>
+              <div class="skill-info">
+                <span class="skill-name">Docker</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 55%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-github">GitHub</div>
+              <div class="skill-info">
+                <span class="skill-name">GitHub</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-badge badge-aws">AWS</div>
+              <div class="skill-info">
+                <span class="skill-name">AWS</span>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 50%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#projects" class="next-link next-link-skills">Next »</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="panel panel-projects" id="projects">
+      <div class="projects-inner">
+        <div class="projects-header">
+          <h2 class="section-title">CREATE PROJECTS</h2>
+          <p class="section-subtitle">制作物</p>
+        </div>
+
+        <div class="projects-layout">
+          <div class="projects-thumbs">
+            <article class="project-card" 
+              data-title="Tomaki's Portfolio"
+              data-languages="HTML/CSS/JavaScript"
+              data-tech="Vanilla JS"
+              data-db="なし"
+              data-period="一ヶ月"
+              data-description="現在ご覧いただいている横スクロールのポートフォリオサイトです。自分がどのような人間か知ってもらえるサイトを目標として作成しました。従来の縦スクロールではなく横スクロールを採用することで、訪問者に新鮮な体験を提供し、印象に残るポートフォリオを目指しました。">
+              <div class="project-thumb">
+                <img src="img/design/portfolio.png" alt="Tomaki's Portfolio">
+              </div>
+              <h3 class="project-title">Tomaki's Portfolio</h3>
+              <p class="project-text">現在ご覧いただいている横スクロールのポートフォリオサイトです。自分がどのような人間か知ってもらえるサイトを目標として作成しました。</p>
+            </article>
+            <article class="project-card"
+              data-title="その講義、どうなった？"
+              data-languages="Python"
+              data-tech="Django/HTML/CSS"
+              data-db="PostgreSQL"
+              data-period="一ヶ月"
+              data-description="2023春のハッカソンで作成した生徒のための講義サイト。デザインとフロントエンドを担当しました。生徒の目線から「あったらいいな」と思ったサイトを目指しました。講義の出席状況や課題の管理、教員とのコミュニケーションを円滑にする機能を実装しています。">
+              <div class="project-thumb">
+                <img src="img/Project/Rectangle 248.png" alt="その講義、どうなった？">
+              </div>
+              <h3 class="project-title">その講義、どうなった？</h3>
+              <p class="project-text">　2025春のハッカソンで作成した生徒のための講義サイト。デザインとフロントエンドを担当しました。<br>　生徒の目線から「あったらいいな」と思ったサイトを目指しました。</p>
+            </article>
+
+            <article class="project-card"
+              data-title="記事投稿アプリ"
+              data-languages="Python"
+              data-tech="Django/HTML/CSS/JavaScript"
+              data-db="SQLite"
+              data-period="二ヶ月"
+              data-description="Djangoの制作課題として作成したCRUDアプリ。非同期のいいね機能・レスポンシブUI・プロフィール機能がポイントです。ユーザーがスムーズに記事を投稿・編集・削除できるインターフェースを実装し、モダンなWebアプリケーションの開発手法を学びました。">
+              <div class="project-thumb">
+                <img src="img/Project/Project3.png" alt="記事投稿アプリ">
+              </div>
+              <h3 class="project-title">記事投稿アプリ</h3>
+              <p class="project-text">Djangoの制作課題として作成したCURDアプリ。<br>　非同期のいいね機能・レスポンシブUI・プロフィール機能がポイント
+              </p>
+            </article>
+
+            <article class="project-card"
+              data-title="記録管理アプリ"
+              data-languages="Python"
+              data-tech="Django/HTML/CSS/JavaScript"
+              data-db="PostgreSQL"
+              data-period="二週間"
+              data-description="2024夏のハッカソンで作成した一人暮らしの学生・新社会人に向けた掲示板アプリ。デザインとフロントエンドを担当しました。他の掲示板アプリとの違いを出すために文章・写真・動画をまとめて投稿できる機能を実装しました。マルチメディアコンテンツの統合により、より表現豊かな投稿が可能になっています。">
+              <div class="project-thumb">
+                <img src="img/Project/Project2.png" alt="記録管理アプリ">
+              </div>
+              <h3 class="project-title">記録管理アプリ</h3>
+              <p class="project-text">　2024夏のハッカソンで作成した一人暮らしの学生・新社会人に向けた掲示板アプリ。デザインとフロントエンドを担当しました。<br>　他の掲示板アプリとの違いを出すために文章・写真・動画をまとめて投稿できる機能を実装しました。</p>
+            </article>
+          </div>
+
+          <aside class="projects-list">
+            <ul>
+              <li>
+                <span class="projects-list-title">図書管理アプリ</span>
+                <span class="projects-list-lang">Java</span>
+              </li>
+              <li>
+                <span class="projects-list-title">オーカー</span>
+                <span class="projects-list-lang">Python</span>
+              </li>
+              <li>
+                <span class="projects-list-title">SNSアプリ</span>
+                <span class="projects-list-lang">Python</span>
+              </li>
+              <li>
+                <span class="projects-list-title">シラバス</span>
+                <span class="projects-list-lang">Python</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <a href="#contact" class="next-link next-link-projects">Next »</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="panel panel-contact" id="contact">
+      <div class="contact-inner">
+        <h2 class="contact-title">CONTACT</h2>
+        <p class="contact-text">お問い合わせはメールにて受け付けています。</p>
+        <a class="contact-mail" href="mailto:s.tomaki.sys23@morijyobi.ac.jp">s.tomaki.sys23@morijyobi.ac.jp</a>
+        <a href="#hero" class="next-link next-link-contact">Back to top »</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Modal -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="閉じる">×<br><span class="close-text">Close</span></button>
+      
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle">その講義、どうだった?</h2>
+      </div>
+      
+      <div class="modal-body">
+        <div class="modal-left">
+          <div class="modal-image-container">
+            <button class="modal-nav modal-nav-prev" aria-label="前へ">‹</button>
+            <div class="modal-image" id="modalImage">
+              <img src="img/design/Project1.png" alt="その講義どうだった">
+            </div>
+            <button class="modal-nav modal-nav-next" aria-label="次へ">›</button>
+          </div>
+        </div>
+        
+        <div class="modal-right">
+          <div class="modal-info">
+            <div class="modal-info-item">
+              <div class="modal-label">●使用言語等</div>
+              <div class="modal-value" id="modalLanguages">Python</div>
+            </div>
+            <div class="modal-info-item">
+              <div class="modal-label">●使用言語</div>
+              <div class="modal-value" id="modalTech">Django/HTML/CSS</div>
+            </div>
+            <div class="modal-info-item">
+              <div class="modal-label">●DB</div>
+              <div class="modal-value" id="modalDB">postgres</div>
+            </div>
+            <div class="modal-info-item">
+              <div class="modal-label">●作成期間:</div>
+              <div class="modal-value" id="modalPeriod">一ヶ月</div>
+            </div>
+          </div>
+          
+          <div class="modal-description">
+            <div class="modal-label">●説明</div>
+            <div class="modal-text" id="modalDescription">
+              ....2023春のハッカソンで作成した掲示板サイト。デザインとフロントエンドを担当しました。<br>
+              ランダムに格納されている名前や画像を組み合わせでオリジナルの画像が生成されて掲示板を楽しめます。<br>
+              初めて接するチーム開発で自分の意見を相手に理解して貰うための工夫など将来必要になってくるコミュニケーションを学びました。<br>
+              また、学校のハッカソンは3回参加していて、全て掲示板を作成していますが、最初に作成したこのサイトは見た目のレベルが低く反省点が多くあり今後の成果物の制作に対する不安がありました。<br>
+              ですが、予想とは逆に徐々に成長していると言う実感があります。今後の糧となる大切な経験になりました。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
